@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* nev design start */
+.hr-design{
+    width: 100%;
+    margin: 20px 0px;
+}
+.hr-design2{
+    width: 100%;
+    margin: 0px 0px;
+}
+.bg-color{
+    background: #e8ebf1;
+}
+.nav-item{
+     padding: 0px 0px;
+     margin: 0px 0px;
+
+}
+.navbar{
+    padding: 0px 0px !important;
+}
+.fa-btn-edt{
+    font-size: 35px !important;
+}
+.container-fluid{
+    padding: 0px 0px;
+}
+.nav-link{
+    color:black;
+    font-size: 13px;
+    text-transform:uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    /* padding: 20px 20px !important; */
+    
+    
+}
+.nav-iner ul li{
+    margin: 0px 15px !important;
+    position: relative;
+    transition: .4s !important;
+}
+.nav-iner ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background-color: #2aacc8;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    
+}
+.nav-iner ul li:hover::after{
+     border-top: 3px solid #2aacc8;
+    color:#2aacc8;
+    width: 100%;
+}
+.dropdown_my_class:focus{
+    background: white;
+    
+}
+    
+
+/* .nav-edit{
+   padding: 0px 0px;
+} */
+.logo{
+    padding: 0px;
+}
+
+
+.dropdown-menu {
+    color:black;
+    text-transform:capitalize;
+    font-family: 'Roboto', sans-serif;
+    
+    position: absolute;
+    top: 75%;
+    z-index: 1000;
+    display: none;
+    min-width: 195px;
+    padding: 10px 10px;
+    margin: 0px;
+    font-size: 13px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: 3px solid #2aacc8;
+    border-radius: 0rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    clear: both;
+    font-weight: 400;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-item:hover{
+    background: none;
+    color: #2aacc8;
+}
+
+/* nev design END */
+
+
+/* carousel start */
+#sec2{
+    background: #81e4ed;
+}
+.carousel_btn{
+   border-radius: 100% !important;
+   width: 10px !important;
+   height: 10px !important;
+   margin: 0px 15px !important;
+   
+}
+.carousel-indicators {
+    position: unset !important;
+    margin-right: 15%;
+    margin-bottom: 0px !important;
+    margin: 0px 0px !important;  
+}
+/* carousel end */
+
+ /* main secshon start part1 */
+#sec3{
+    background: #e8ebf1;
+
+}
+.top_mar{
+    margin-top: 60px;
+}
+ .clean{
+    
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+.clean-title{
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 10px 20px;
+    font-size: 15px;
+}
+.fa-icon{
+    color: white;
+    font-size: 20px;
+    background-color: #2aacc8;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+
+    
+}
+
+.clean-title_p{
+    
+    font-size: 14px;
+    
+}
+.read-more a{
+    text-decoration: none;
+    color: #2aacc8;
+    text-transform: capitalize;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+/* main section end part1 */
+
+/* main section start part2 */
+#sec4{}
+.pointer-icon{
+    font-size: 20px;
+    color: #2aacc8;
+}
+.lates-work{
+  padding: 20px 0px;
+  /* display: block !important; */
+    
+}
+.latest-work-left{
+    
+}
+.lates-work-right{
+    
+    
+   
+}
+.latest-work-titel{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.lates-work-right button{
+    border-radius: 100%;
+    background: #2aacc8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+.fa-icon-pag{
+    font-size:20px;
+    font-weight: bolder;
+    width: 15px !important;
+    height:15px !important;
+    color:black;
+    text-align: center;
+    
+}
+.group{
+    text-align: right;
+    text-align: center;
+}
+
+/* main section end part2 */
+
+/* card secshon part2 */
+.card{
+    margin-bottom: 20px; 
+    transition: 0.4s; 
+    box-shadow: 0px 0px 5px;
+}
+.card-body{
+    background: #2aacc8;
+    
+    
+}
+.card:hover{
+    box-shadow: 0px 0px 15px;
+}
+.card-icon{
+    padding: 5px 15px;
+    font-size: 20px;
+    color: white;
+}
+
+/* card secshon part2 end */
+
+.testimonials p{
+    margin: 20px 0px;
+    padding-right: 30px;
+    font-size: 14px;
+    
+    
+}
+.domain{
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 14px;
+    
+}
+.clint-manu{
+    cursor: pointer;   
+}
+
+.client-img{
+    width: auto;
+    margin: 3px 0px;
+    box-shadow: 0px 0px 5px rgb(37, 37, 37);
+    transition: 0.4s; 
+}
+.client-img:hover{
+    box-shadow: 0px 0px 6px black;
+}
+
+/* media start */
+
+.media{
+    background: #e8fcfe;
+    border: 1px solid #81e4ed;
+    padding:20px;
+    margin-top: 20px;
+    
+}
+.media p{
+    margin-bottom: 0px;
+    font-size: 16px;
+    text-transform: capitalize;
+
+}
+.bt-icon{
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+}
+.btn-style{
+    box-shadow: 0px 0px 3px #2aacc8;
+    border: 1x solid black;
+    background: rgb(73,224,226);
+    background: linear-gradient(225deg, rgba(73,224,226,1) 0%, rgba(37,173,203,1) 100%);
+}
+.text-style{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+
+}
+/* media end */
+
+
+/* footer start */
+#sec-foot{
+    background: #e8ebf1;
+    margin-top: 40px;
+}
+.col-cls{
+    padding-right:50px !important;
+}
+
+.foot-title{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+.foot-body p{
+    margin-top: 30px;
+    font-size: 14px;
+
+}
+.exp-body ul{
+    padding: 0px;
+}
+.exp-body ul li{
+     list-style: none;
+     display: block;
+     margin: 15px 0px;
+     
+     
+     
+}
+.exp-body ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.exp-body ul li a:hover{
+    text-decoration: underline;
+    color: #2aacc8;
+}
+
+.contact{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.name{
+    font-weight: bold;
+    
+}
+.cn-link{
+    position: relative;
+}
+.connect-link{
+    margin-top: 15px;
+   
+}
+.connect-link a{
+    text-decoration: none;
+}
+
+.link-logo{
+    width: 65px;
+    padding: 10px;
+    cursor: pointer;  
+    transition: 1s;
+}
+.link-logo:hover{
+    transform: rotate(360deg);
+}
+.copy-user{
+margin-top: 20px;
+}
+.copy-user p{
+    font-size: 13px;
+}
+
+.foot-logo{
+    
+    
+    
+}
+.logo-foot{
+    margin-right: 0px !important;
+    text-decoration: none;
+}
+
+
+    
